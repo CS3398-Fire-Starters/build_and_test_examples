@@ -1,10 +1,11 @@
 language: python
 
 python:
- - "2.7"
- - "3.4"
+  - "2.7"
+  - "3.4"
 
 script:
+<<<<<<< HEAD
 
  - sh test.sh
 
@@ -15,3 +16,14 @@ script:
  
  #script:
  # - nosetests -v -with-coverage
+=======
+ # - python helloworld.py
+  - sh test.sh
+
+#before_install:
+# - pip install coverage
+#  - cd python
+
+#script: 
+#  - nosetests -v --with-coverage
+>>>>>>> origin/Develop
