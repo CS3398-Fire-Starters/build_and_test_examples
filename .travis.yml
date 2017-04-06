@@ -6,6 +6,8 @@ python:
 
 script:
  # - python helloworld.py
+ - helloJordan.py
+ - helloDerek.py
   - sh test.sh
 
 #before_install:
