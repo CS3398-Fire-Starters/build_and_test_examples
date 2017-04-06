@@ -1,4 +1,4 @@
-try:
+try: 
     mode=int(input("Give me a number! "))
     print("That number was: "),  mode, "\n"
 except ValueError:
