@@ -1,1 +1,1 @@
-print ("Hello this is Derek trying again")
+print ("Hello this is Derek trying again. Derek thinks Osa is cool")
